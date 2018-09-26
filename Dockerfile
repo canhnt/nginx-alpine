@@ -13,7 +13,7 @@ RUN touch /var/run/nginx.pid && \
   chown -R www-user:www-group /var/run/nginx.pid && \
   chown -R www-user:www-group /var/cache/nginx
 
-USER www-user
+USER 1000
 
 EXPOSE 8080
 
